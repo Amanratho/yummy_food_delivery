@@ -1,0 +1,25 @@
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.Header-content {
+  animation: fade-in 3s;
+}
+
+@media (max-width: 1050px) {
+  .header-content {
+    max-width: 45%;
+  }
+}
+@media (max-width: 750px) {
+  .header-content {
+    max-width: 65%;
+  }
+  .header-content p{
+    display: none;
+  }
+}

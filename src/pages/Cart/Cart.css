@@ -1,0 +1,13 @@
+.cart-item-tittle{
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 0.5fr;
+
+}
+@media(max-width :750px){
+    .cart-bottom{
+      flex-direction: column-reverse;
+
+    }
+    .cart-promocode{
+        justify-content: start;
+    }
+}
