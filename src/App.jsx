@@ -22,9 +22,8 @@ function App() {
           <Route path="/Cart" element={<Cart />} />
           <Route path="/Order" element={<PlaceOrder />} />
         </Routes>
-       
       </div>
-         <Footer />
+      <Footer />
     </>
   );
 }
